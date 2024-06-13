@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>DarkTab</title> 
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://i.ibb.co/KsrvCDD/fotor-20240606164831.png" type="image/png">
+</head>
+<body>
+  <nav>
+    <div class="nav-content">
+      <div class="logo">
+        <a href="Index.html">DarkTab</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <!-- <li><a href="https://www.pornhub.com/">Free Money</a></li> -->
+      </ul>
+    </div>
+  </nav>
+  <section class="home"></section>
+  <div class="text"> <!-- Texts here -->
+    <center><h2>&nbsp;DarkTab</h2></center>
+    <font color="#0b700b"><center><p>&nbsp;&nbsp;&nbsp;By AnonymousTaboo</p></center></font>
+    <br><p></p>
+  </div>
+
+  <script>
+    let nav = document.querySelector("nav");
+    window.onscroll = function() {
+      if(document.documentElement.scrollTop > 20){
+        nav.classList.add("sticky");
+      }else {
+        nav.classList.remove("sticky");
+      }
+    }
+  </script>
+</body>
+</html>  

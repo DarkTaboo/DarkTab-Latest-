@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>DarkTab</title> 
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://i.ibb.co/KsrvCDD/fotor-20240606164831.png" type="image/png">
+</head>
+<body>
+  <nav>
+    <div class="nav-content">
+      <div class="logo">
+        <a href="Index.html">DarkTab</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <!-- <li><a href="https://www.pornhub.com/">Free Money</a></li> -->
+      </ul>
+    </div>
+  </nav>
+  
+  <font color="#0b700b">
+  <div class="formcarry-container">
+    <form action="#" method="POST" class="formcarry-form">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="fullName" required />
+
+      <label for="email">Your Email Address</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Your Message</label>
+      <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  </font>
+
+  <section class="home"></section>
+  <div class="text"> <!-- Texts here -->
+    <center><h2>&nbsp;DarkTab</h2></center>
+    <font color="#0b700b"><center><p>&nbsp;&nbsp;&nbsp;By AnonymousTaboo</p></center></font>
+    <br><p></p>
+  </div>
+
+  <script>
+    let nav = document.querySelector("nav");
+    window.onscroll = function() {
+      if(document.documentElement.scrollTop > 20){
+        nav.classList.add("sticky");
+      }else {
+        nav.classList.remove("sticky");
+      }
+    }
+  </script>
+</body>
+</html>  
